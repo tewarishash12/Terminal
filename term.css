@@ -1,0 +1,110 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95.5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+#container{
+    border-radius: 5px;
+    background: rgba(37, 37, 37, 0.8);
+    animation: fadeInUp 3s ease-in-out;
+}
+
+/* Color buttons */
+#lights{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 4vw;
+}
+
+.color{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+}
+
+#red{
+    background-color: red;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#green{
+    background-color: green;
+}
+
+/* Title bar Properties */
+
+#title{
+    display: flex;
+    width: 81.3vw;
+    background: rgba(37, 37, 37, 0.9);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 15px;
+}
+
+#heading{
+    color: rgb(203, 227, 248);
+    text-align: center;
+    width: 76vw;
+    font-weight: bold;
+}
+
+/* Body Styling */
+#content{
+    width: 80vw;
+    height: 70vh;
+    padding: 0 20px;
+}
+
+.terminal-intro{
+    color: white;
+}
+
+#textField{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.colorRed{
+    color: rgb(255, 9, 9);
+}
+
+.colorYellow{
+    color: rgb(255, 255, 65);
+}
+
+.colorGreen{
+    color: rgb(0, 255, 0);
+}
+
+/* Pointer styling */
+#cursor{
+    color: white;
+    background-color: white;
+}
+
+
+/* Animation keyframes for container */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
