@@ -128,7 +128,7 @@ async function resumeFunction(){
 async function bioFunction(){
     let langUsed = await langCommand();
     
-    let strContent1 = `${langUsed[0]} (${langUsed[1]})! Welcome to the life of Shashwat Tzewari. He is currently a 4th year student at MIT, Moradabad. He has worked on many projects related to MERN technology and is quite proficient in it. He is currently doing DSA in Java Language, but can also code in multiple different languages if required. Currently looking for my first break in the field of development. If you need someone reliable and efficient, you've found the right guy ;)`;
+    let strContent1 = `${langUsed[0]} (${langUsed[1]})! Welcome to the life of Shashwat Tewari. He is currently a 4th year student at MIT, Moradabad. He has worked on many projects related to MERN technology and is quite proficient in it. He is currently doing DSA in Java Language, but can also code in multiple different languages if required. Currently looking for my first break in the field of development. If you need someone reliable and efficient, you've found the right guy ;)`;
     animatedText1.innerHTML = '';
     animText(strContent1);
 }
