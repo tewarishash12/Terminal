@@ -120,7 +120,7 @@ async function resumeFunction(){
     let strContent4 = `${langUsed[0]} (${langUsed[1]})! Thanks for the query. Get my resume here: https://drive.google.com/file/d/1oCXNWWzZ523vujGiLvGXG2cxBFmtU2Mt/view. Hold on, opening in a new tab. Please check if the pop-ups are not blocked`
     animText(strContent4);
     setTimeout(() => {
-        window.open(`https://drive.google.com/file/d/1oCXNWWzZ523vujGiLvGXG2cxBFmtU2Mt/view`, `_blank`);
+        window.open(`https://drive.google.com/file/d/1mdh_vBFplBUDYGBmijI2QV2d5VCI05Yx/view?usp=sharing`, `_blank`);
     }, 10000);
 }
 
